@@ -12,13 +12,28 @@ header {
     text-align: center;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
     padding: 2rem;
 }
 
-.project {
+.project, .contact {
     background-color: white;
     margin: 1rem 0;
     padding: 1rem;
